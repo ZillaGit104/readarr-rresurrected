@@ -1,8 +1,8 @@
 name: Check Upstream, Sync Code, and Build ARM64
 
 on:
-  schedule:
-    - cron: '0 4 * * *' # Automatically runs every day at 4:00 AM UTC
+  #schedule:
+    #- cron: '0 4 * * *' # Automatically runs every day at 4:00 AM UTC
   workflow_dispatch: # Allows manual override triggers via the GitHub UI button
 
 jobs:
